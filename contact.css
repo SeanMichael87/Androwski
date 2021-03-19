@@ -4,4 +4,5 @@ label,input{
 
 label{
   margin-bottom: 20px;
+  background-color: red;
 }
