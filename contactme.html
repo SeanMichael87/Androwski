@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1>Jim's Contact Information</h1>
+    <table cellspacing="5" border="black">
+		<tr>
+			<td>My Phone Number:</td>
+			<td>(508)678-8890</td>
+		</tr>
+		<tr>
+			<br>
+			<td>Email</td>
+			<td>Dealski6969@yomamam.com</td>
+		</tr>
+	  </table>
+	  <hr>
+    <!--Notice 2 things in the line directly below. First, the action. I can put any type of link there
+    that will send the info to whenever I click submit. At first I had it direct toward my home page. Notice now that I have it to 'mailto' 
+    this will actually open up a New Email to have the message sent to said email address, this is what 'post' does in the method attribute
+    Lastly, notice the 'enctype'. If I do not call on that, the "message" will be of just code. I have to set the enctype to tell the code that it is just plain text-->
+    <form class="" action="mailto:celtsfan9212013@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value="" /><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value="" /><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
