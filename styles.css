@@ -7,6 +7,9 @@ header{}
   overflow: hidden;
   background-color: AliceBlue;
   padding: 20px 10px;
+	margin: -10px -10px 0px -10px;
+	border: groove black 5px;
+	border-radius: 10px;
 }
 
 /* Style the header links */
@@ -77,8 +80,8 @@ img {
 	border: 2px solid black;
 	border-radius: 70%;
 }
-#flag{
-	margin-right: 25%;
+.flag{
+	
 }
 body {
   background-image: url("background.jpg");
@@ -97,15 +100,24 @@ p {
  text-align: center;
  color: white;
 }
-
+.container{
+	background-color: AliceBlue;
+	text-align: center;
+	margin:0 0 0 0;
+}
+.container p{
+	color: black;
+}
 .question{
 	
 	background-color: white;
 	border: 2px solid black;
-	margin-right: 75%;
+	margin-right: auto;
+	margin-left: auto;
 	padding-left: 20px;
 	padding-top: 10px;
 	padding-right: 20px;
+	width: 300px;
 	
 }
 label{
